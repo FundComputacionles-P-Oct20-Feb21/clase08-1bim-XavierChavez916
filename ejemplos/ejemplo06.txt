@@ -4,9 +4,9 @@
 4.  Mientras n < 2 Entonces
 6.    << n
 8.    n <-- n + 1 
-9.  Fin Mientras"
+9.  Fin Mientras
 10. << n
 11. Fin
   
 
-// va a dar un error ya que en la linea 9 al final tiene comillas
+// Se va a presentar en pantalla :  2
