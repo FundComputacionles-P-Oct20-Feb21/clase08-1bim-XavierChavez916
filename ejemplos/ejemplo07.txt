@@ -4,6 +4,9 @@
 4.  Mientras n <= 2 Entonces
 6.    << n
 8.    n <-- n + 1 
-9.  Fin Mientras"
+9.  Fin Mientras
 10. << n
 11. Fin
+
+
+// Se va a presentar en pantalla:  2  3
