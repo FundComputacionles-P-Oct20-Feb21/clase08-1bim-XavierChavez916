@@ -29,3 +29,5 @@
 29. Fin_Dependiendo_De
 30. Escribir "El resultado de la operación " + tipo + "es :" + resultado
 31. Fin
+
+// Va a salir un error ya que la variable tipo y resultado no tiene asignado un valor
