@@ -31,4 +31,4 @@
 31. Fin
 
 // Va a salir un error ya que la variable tipo y resultado no tiene asignado 
-un valor y la variable resultado es de tipo cadena y no se puede sumar con un valor numérico
+un valor 
