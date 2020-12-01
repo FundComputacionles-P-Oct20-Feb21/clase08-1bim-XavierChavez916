@@ -23,4 +23,4 @@
 23. Escribir "El valor total a pagar es: " + valorTotal
 24. Fin
 
-// El valor total a pagar es: 23
+// Se va presentar un error ya que edad no tiene valor
