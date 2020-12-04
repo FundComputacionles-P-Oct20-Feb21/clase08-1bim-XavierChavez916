@@ -41,8 +41,8 @@
 17.	Leer edad
 18.	suma_edades <-- suma_edades + edad 
 19.	contador <-- contador + 1
-20.	reporte1 <-- reporte + "Nombre: " + nombre +"\n"
-21. 	reporte2 <-- reporte + "Apellido: " + apellido + "\n"
+20.	reporte1 <-- reporte1 + "Nombre: " + nombre +"\n"
+21. 	reporte2 <-- reporte2 + "Apellido: " + apellido + "\n"
 22. Fin_Para
 23. promedio <-- suma_edades / contador
 24. Escribir reporte1 + reporte2 + "\n" + "Promedio de edades: "+ promedio

@@ -12,9 +12,11 @@
 2. serie, i[0,n]<--0
 
 3. Para(i<--0,i<=5,1)haga
-4. 	if((i % 2)==0) entonces
+4. 	Si((i % 2)==0) entonces
 5.		serie = serie + 5
 6.		Escribir serie
 7.	De lo contrario
 8.		serie = serie + 5
 9.		Escribir serie
+10.	Fin si
+11. Fin
