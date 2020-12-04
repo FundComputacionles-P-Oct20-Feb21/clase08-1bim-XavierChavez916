@@ -24,25 +24,26 @@
 1. Inicio
 2. nombre, x(20)[{a-z},{BS}, {A-Z}]
 3. apellido, x(20)[{a-z},{BS}, {A-Z}]
-4. reporte, x(20)[{a-z},{BS}, {A-Z}] <--""
-5. suma_edades, d[0,n]
-6. edad, i[0,n]
-7. promedio, d[0,n]
-8. contador, i[0,n] <-- 0
-9. num, i[0,n]
+4. reporte1, x(20)[{a-z},{BS}, {A-Z}] <--""
+5. reporte2, x(20)[{a-z},{BS}, {A-Z}] <--""
+6. suma_edades, d[0,n]
+7. edad, i[0,n]
+8. promedio, d[0,n]
+9. contador, i[0,n] <-- 0
+10. num, i[0,n]
 
-9. Para (num<--1,num<=4,1)haga
-10.	Escribir "Ingrese el nombre"
-11.	Leer nombre
-12.	Escribir "Ingrese el apellido"
-13.	Leer apellido
-14. 	Escribir "Ingrese la edad"
-15.	Leer edad
-16.	suma_edades <-- suma_edades + edad 
-17.	contador <-- contador + 1
-18.	reporte <-- reporte + "Nombre: " + nombre +"\n"
-19. 	reporte <-- reporte + "Apellido: " + apellido + "\n"
-20. Fin_Para
-21. promedio <-- suma_edades / contador
-22. Escribir reporte + "\n" + "Promedio de edades: "+ promedio
-23. Fin	
+11. Para (num<--1,num<=4,1)haga
+12.	Escribir "Ingrese el nombre"
+13.	Leer nombre
+14.	Escribir "Ingrese el apellido"
+15.	Leer apellido
+16. 	Escribir "Ingrese la edad"
+17.	Leer edad
+18.	suma_edades <-- suma_edades + edad 
+19.	contador <-- contador + 1
+20.	reporte1 <-- reporte + "Nombre: " + nombre +"\n"
+21. 	reporte2 <-- reporte + "Apellido: " + apellido + "\n"
+22. Fin_Para
+23. promedio <-- suma_edades / contador
+24. Escribir reporte1 + reporte2 + "\n" + "Promedio de edades: "+ promedio
+25. Fin	
